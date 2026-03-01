@@ -6,7 +6,7 @@
  * Usage: npx tsx scripts/build-index.ts
  *
  * Reads each agents/<author>__<name>/metadata.json, enriches with
- * icon URL, readme URL, and added_at date, then writes index.json.
+ * icon URL, readme URL, added_at date, and GitHub repo stats.
  */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from "fs";
@@ -35,10 +35,19 @@ interface AgentMetadata {
   banner?: boolean;
 }
 
+interface GitHubStats {
+  stars: number;
+  forks: number;
+  issues: number;
+  language: string | null;
+  avatar: string;
+  description: string | null;
+}
+
 interface IndexEntry extends Omit<AgentMetadata, "icon" | "banner"> {
   icon: string | null;
   banner: string | null;
-  social_preview: string | null;
+  github: GitHubStats | null;
   readme: string;
   added_at: string;
 }
@@ -64,20 +73,25 @@ function getFirstCommitDate(folderPath: string): string {
   return new Date().toISOString().split("T")[0];
 }
 
-function fetchSocialPreview(repoUrl: string): string | null {
+function fetchGitHubStats(repoUrl: string): GitHubStats | null {
+  const repoPath = repoUrl.replace("https://github.com/", "");
   try {
-    const html = execSync(`curl -sL "${repoUrl}"`, {
-      encoding: "utf-8",
-      timeout: 15_000,
-    });
-    const match = html.match(/property="og:image"\s+content="([^"]+)"/);
-    if (match?.[1] && !match[1].includes("avatars.githubusercontent.com")) {
-      return match[1];
-    }
+    const json = execSync(
+      `curl -sL "https://api.github.com/repos/${repoPath}"`,
+      { encoding: "utf-8", timeout: 15_000 }
+    );
+    const data = JSON.parse(json);
+    return {
+      stars: data.stargazers_count ?? 0,
+      forks: data.forks_count ?? 0,
+      issues: data.open_issues_count ?? 0,
+      language: data.language ?? null,
+      avatar: data.owner?.avatar_url ?? "",
+      description: data.description ?? null,
+    };
   } catch {
-    // fallback
+    return null;
   }
-  return null;
 }
 
 function buildIndex(): Index {
@@ -114,8 +128,8 @@ function buildIndex(): Index {
     const hasBanner = metadata.banner === true && existsSync(join(folderPath, "banner.png"));
     const addedAt = getFirstCommitDate(folderPath);
 
-    console.log(`  Fetching social preview for ${metadata.repository}...`);
-    const socialPreview = fetchSocialPreview(metadata.repository);
+    console.log(`  Fetching GitHub stats for ${metadata.repository}...`);
+    const github = fetchGitHubStats(metadata.repository);
 
     const entry: IndexEntry = {
       name: metadata.name,
@@ -130,7 +144,7 @@ function buildIndex(): Index {
       adapters: metadata.adapters,
       icon: hasIcon ? `${RAW_BASE}/agents/${folder}/icon.png` : null,
       banner: hasBanner ? `${RAW_BASE}/agents/${folder}/banner.png` : null,
-      social_preview: socialPreview,
+      github,
       readme: `${RAW_BASE}/agents/${folder}/README.md`,
       added_at: addedAt,
     };
@@ -140,7 +154,7 @@ function buildIndex(): Index {
     }
 
     agents.push(entry);
-    console.log(`  + ${metadata.author}/${metadata.name} (${metadata.category})`);
+    console.log(`  + ${metadata.author}/${metadata.name} (stars:${github?.stars ?? '?'} forks:${github?.forks ?? '?'})`);
   }
 
   // Sort by name

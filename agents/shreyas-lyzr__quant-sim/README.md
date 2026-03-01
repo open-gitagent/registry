@@ -2,6 +2,8 @@
 
 Institutional-grade prediction market simulation engine. Every model, every formula, runnable code.
 
+> Based on the research by [@gemchange_ltd](https://x.com/gemchange_ltd/status/2027744530124951831). Agent built by shreyas-lyzr.
+
 ## Try It
 
 ```bash

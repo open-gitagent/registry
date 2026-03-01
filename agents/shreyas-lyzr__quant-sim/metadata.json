@@ -1,0 +1,14 @@
+{
+  "name": "quant-sim",
+  "author": "shreyas-lyzr",
+  "description": "Institutional-grade prediction market simulation engine — Monte Carlo, particle filters, copulas, and agent-based modeling",
+  "repository": "https://github.com/shreyas-lyzr/quant-sim",
+  "version": "1.0.0",
+  "category": "finance",
+  "tags": ["quantitative-finance", "monte-carlo", "prediction-markets", "simulation", "risk-management", "copulas"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "openai", "lyzr", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

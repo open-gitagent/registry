@@ -1,0 +1,14 @@
+{
+  "name": "architect",
+  "author": "shreyas-lyzr",
+  "description": "Architect by Shreyas Kapale @ Lyzr — helps you build, run, and manage GitAgents",
+  "repository": "https://github.com/shreyas-lyzr/architect",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": ["gitagent", "cli", "developer-tools", "assistant"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "openai", "lyzr", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

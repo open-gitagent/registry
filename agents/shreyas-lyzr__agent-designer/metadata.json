@@ -1,0 +1,14 @@
+{
+  "name": "agent-designer",
+  "author": "shreyas-lyzr",
+  "description": "Helps developers design, audit, and refine the action space for AI agents — based on lessons from building Claude Code",
+  "repository": "https://github.com/shreyas-lyzr/agent-designer",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": ["agent-design", "tool-design", "elicitation", "progressive-disclosure", "meta-agent"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "openai", "lyzr", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

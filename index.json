@@ -1,62 +1,37 @@
 {
   "agents": [
     {
-      "name": "code-review",
-      "author": "gitagent-examples",
-      "description": "Automated code review agent with security analysis, performance checks, and best-practice enforcement",
-      "repository": "https://github.com/open-gitagent/examples",
+      "name": "agent-designer",
+      "author": "shreyas-lyzr",
+      "description": "Helps developers design, audit, and refine the action space for AI agents — based on lessons from building Claude Code",
+      "repository": "https://github.com/shreyas-lyzr/agent-designer",
       "version": "1.0.0",
       "category": "developer-tools",
       "tags": [
-        "code-review",
-        "security",
-        "linting",
-        "best-practices"
-      ],
-      "license": "MIT",
-      "model": "claude-sonnet-4-5-20250929",
-      "adapters": [
-        "claude-code",
-        "openai",
-        "system-prompt"
-      ],
-      "icon": null,
-      "banner": null,
-      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/gitagent-examples__code-review/README.md",
-      "added_at": "2026-03-01",
-      "path": "standard"
-    },
-    {
-      "name": "compliance-analyst",
-      "author": "gitagent-examples",
-      "description": "Financial compliance analysis agent for FINRA and Federal Reserve regulated environments",
-      "repository": "https://github.com/open-gitagent/examples",
-      "version": "1.0.0",
-      "category": "compliance",
-      "tags": [
-        "compliance",
-        "financial-services",
-        "finra",
-        "federal-reserve",
-        "regulated"
+        "agent-design",
+        "tool-design",
+        "elicitation",
+        "progressive-disclosure",
+        "meta-agent"
       ],
       "license": "MIT",
       "model": "claude-opus-4-6",
       "adapters": [
         "claude-code",
+        "openai",
+        "lyzr",
         "system-prompt"
       ],
       "icon": null,
       "banner": null,
-      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/gitagent-examples__compliance-analyst/README.md",
-      "added_at": "2026-03-01",
-      "path": "full"
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__agent-designer/README.md",
+      "added_at": "2026-03-01"
     },
     {
-      "name": "gitagent-helper",
-      "author": "gitagent",
-      "description": "Your AI assistant for building, running, and managing git-native AI agents with gitagent",
-      "repository": "https://github.com/open-gitagent/examples",
+      "name": "architect",
+      "author": "shreyas-lyzr",
+      "description": "Architect by Shreyas Kapale @ Lyzr — helps you build, run, and manage GitAgents",
+      "repository": "https://github.com/shreyas-lyzr/architect",
       "version": "1.0.0",
       "category": "developer-tools",
       "tags": [
@@ -66,19 +41,19 @@
         "assistant"
       ],
       "license": "MIT",
-      "model": "claude-sonnet-4-5-20250929",
+      "model": "claude-opus-4-6",
       "adapters": [
         "claude-code",
         "openai",
+        "lyzr",
         "system-prompt"
       ],
       "icon": null,
       "banner": null,
-      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/gitagent__gitagent-helper/README.md",
-      "added_at": "2026-03-01",
-      "path": "gitagent-helper"
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__architect/README.md",
+      "added_at": "2026-03-01"
     }
   ],
-  "total": 3,
-  "generated_at": "2026-03-01T12:22:57.497Z"
+  "total": 2,
+  "generated_at": "2026-03-01T12:49:13.340Z"
 }

@@ -41,6 +41,7 @@ interface GitHubStats {
   issues: number;
   language: string | null;
   avatar: string;
+  social_preview: string | null;
   description: string | null;
 }
 
@@ -73,6 +74,22 @@ function getFirstCommitDate(folderPath: string): string {
   return new Date().toISOString().split("T")[0];
 }
 
+function fetchSocialPreview(repoUrl: string): string | null {
+  try {
+    const html = execSync(`curl -sL "${repoUrl}"`, {
+      encoding: "utf-8",
+      timeout: 15_000,
+    });
+    const match = html.match(/property="og:image"\s+content="([^"]+)"/);
+    if (match?.[1] && !match[1].includes("avatars.githubusercontent.com")) {
+      return match[1];
+    }
+  } catch {
+    // fallback
+  }
+  return null;
+}
+
 function fetchGitHubStats(repoUrl: string): GitHubStats | null {
   const repoPath = repoUrl.replace("https://github.com/", "");
   try {
@@ -81,12 +98,14 @@ function fetchGitHubStats(repoUrl: string): GitHubStats | null {
       { encoding: "utf-8", timeout: 15_000 }
     );
     const data = JSON.parse(json);
+    const socialPreview = fetchSocialPreview(repoUrl);
     return {
       stars: data.stargazers_count ?? 0,
       forks: data.forks_count ?? 0,
       issues: data.open_issues_count ?? 0,
       language: data.language ?? null,
       avatar: data.owner?.avatar_url ?? "",
+      social_preview: socialPreview,
       description: data.description ?? null,
     };
   } catch {

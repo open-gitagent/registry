@@ -30,6 +30,7 @@
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/fb12cdd7813bedc8e01dac838036f1878b14aeaccb5b00430bc015bc56bbc69e/shreyas-lyzr/agent-designer",
         "description": "Meta-agent for designing AI agent action spaces — based on lessons from building Claude Code"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__agent-designer/README.md",
@@ -64,6 +65,7 @@
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://repository-images.githubusercontent.com/1164987139/49ba99c6-5916-4bdd-8d28-dde492f22827",
         "description": "The official gitagent assistant — an AI agent that helps you build, run, and manage AI agents with gitagent"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__architect/README.md",
@@ -100,6 +102,7 @@
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/f7d8761974c8926820b7d30a10eaa92595870d0c2c848b89cec7e0ca57b5f355/shreyas-lyzr/quant-sim",
         "description": "Institutional-grade prediction market simulation engine — Monte Carlo, importance sampling, particle filters, copula dependency modeling, and agent-based market microstructure"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__quant-sim/README.md",
@@ -107,5 +110,5 @@
     }
   ],
   "total": 3,
-  "generated_at": "2026-03-01T16:31:43.040Z"
+  "generated_at": "2026-03-01T16:40:17.340Z"
 }

@@ -1,0 +1,14 @@
+{
+  "name": "marketing-agent",
+  "author": "shreyas-lyzr",
+  "description": "A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.",
+  "repository": "https://github.com/shreyas-lyzr/marketing-agent",
+  "version": "1.0.0",
+  "category": "marketing",
+  "tags": ["marketing", "seo", "cro", "copywriting", "paid-ads", "email-marketing", "analytics", "pricing", "growth"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "openai", "lyzr", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

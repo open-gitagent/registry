@@ -58,4 +58,4 @@ chrome-extension-builder/
 ---
 
 ## Built with
-- **gitagent** — a git-native, framework-agnostic open standard for AI agents
+[gitagent](https://github.com/open-gitagent/gitagent) — a git-native, framework-agnostic open standard for AI agents.

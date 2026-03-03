@@ -1,8 +1,7 @@
 {
   "name": "chrome-extension-builder",
   "author": "AJAmit17",
-  "description": "A Claude-native AI agent for building Chrome browser extensions end-to-end with Manifest V3. Handles extension scaffolding, architecture design, chrome.* API implementation, debugging, CSP compliance, and Chrome Web Store publishing.",
-  "repository": "https://github.com/AJAmit17/chrome-extension-builder",
+  "description": "AI agent for building Chrome extensions end-to-end — scaffolding, Manifest V3, chrome.* APIs, debugging, CSP, and Web Store publishing",
   "version": "1.0.0",
   "category": "developer-tools",
   "tags": ["chrome-extensions", "manifest-v3", "extension-scaffolding", "chrome-api"],

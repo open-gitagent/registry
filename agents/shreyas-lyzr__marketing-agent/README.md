@@ -2,6 +2,8 @@
 
 A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.
 
+> Skills by [@coreyhaines31](https://x.com/coreyhaines31). Agent built by shreyas-lyzr.
+
 ## Run
 
 ```bash
@@ -35,6 +37,10 @@ marketing-agent/
     ├── pricing-strategy/
     └── ... (32 skills total)
 ```
+
+## Credits
+
+32 marketing skills designed by [@coreyhaines31](https://x.com/coreyhaines31). Agent packaged as a gitagent by [shreyas-lyzr](https://github.com/shreyas-lyzr).
 
 ## Built with
 

@@ -145,7 +145,7 @@
     {
       "name": "marketing-agent",
       "author": "shreyas-lyzr",
-      "description": "A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.",
+      "description": "AI marketing agent with 32 skills — SEO, CRO, copywriting, ads, email, analytics, pricing. Skills by @coreyhaines31.",
       "repository": "https://github.com/shreyas-lyzr/marketing-agent",
       "version": "1.0.0",
       "category": "productivity",
@@ -176,7 +176,7 @@
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/479ccbbf0cfec46920f31409ffaed3b1dea9388f2d9348c91be2be334de9a917/shreyas-lyzr/marketing-agent",
+        "social_preview": "https://opengraph.githubassets.com/dc9a91585d607ac95c74b7d405fd8c3b1334ef316ac2d9fb9c00797e3e81fed4/shreyas-lyzr/marketing-agent",
         "description": null
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__marketing-agent/README.md",
@@ -221,5 +221,5 @@
     }
   ],
   "total": 6,
-  "generated_at": "2026-03-03T23:57:12.676Z"
+  "generated_at": "2026-03-04T00:00:16.967Z"
 }

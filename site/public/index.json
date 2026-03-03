@@ -72,6 +72,117 @@
       "added_at": "2026-03-01"
     },
     {
+      "name": "chrome-extension-builder",
+      "author": "AJAmit17",
+      "description": "AI agent for building Chrome extensions end-to-end — scaffolding, Manifest V3, chrome.* APIs, debugging, CSP, and Web Store publishing",
+      "repository": "https://github.com/AJAmit17/chrome-extension-builder",
+      "version": "1.0.0",
+      "category": "developer-tools",
+      "tags": [
+        "chrome-extensions",
+        "manifest-v3",
+        "extension-scaffolding",
+        "chrome-api"
+      ],
+      "license": "MIT",
+      "model": "claude-opus-4-6",
+      "adapters": [
+        "claude-code",
+        "openai",
+        "lyzr",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": "Shell",
+        "avatar": "https://avatars.githubusercontent.com/u/100467234?v=4",
+        "social_preview": "https://opengraph.githubassets.com/925ab1417b6e4ed0bc28c7aef4d24071f7369ab40796e635e116e5ef6aa0f479/AJAmit17/chrome-extension-builder",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/AJAmit17__chrome-extension-builder/README.md",
+      "added_at": "2026-03-02"
+    },
+    {
+      "name": "claude-law-firm",
+      "author": "shreyas-lyzr",
+      "description": "Claude-native legal AI agent for boutique law firms. Contract review, tracked-changes editing, drafting, client comms, research, and policy writing.",
+      "repository": "https://github.com/shreyas-lyzr/claude-law-firm",
+      "version": "1.0.0",
+      "category": "compliance",
+      "tags": [
+        "legal",
+        "contract-review",
+        "law-firm",
+        "compliance",
+        "drafting",
+        "research"
+      ],
+      "license": "MIT",
+      "model": "claude-sonnet-4-5-20250929",
+      "adapters": [
+        "claude-code",
+        "openai",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 3,
+        "forks": 1,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/493381749cc40d7fe5f383bce20e2b04adcf8e2651e2568864c47fab975d38b7/shreyas-lyzr/claude-law-firm",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__claude-law-firm/README.md",
+      "added_at": "2026-03-01"
+    },
+    {
+      "name": "marketing-agent",
+      "author": "shreyas-lyzr",
+      "description": "A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.",
+      "repository": "https://github.com/shreyas-lyzr/marketing-agent",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "marketing",
+        "seo",
+        "cro",
+        "copywriting",
+        "paid-ads",
+        "email-marketing",
+        "analytics",
+        "pricing",
+        "growth"
+      ],
+      "license": "MIT",
+      "model": "claude-sonnet-4-5-20250929",
+      "adapters": [
+        "claude-code",
+        "openai",
+        "lyzr",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/479ccbbf0cfec46920f31409ffaed3b1dea9388f2d9348c91be2be334de9a917/shreyas-lyzr/marketing-agent",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__marketing-agent/README.md",
+      "added_at": "2026-03-03"
+    },
+    {
       "name": "quant-sim",
       "author": "shreyas-lyzr",
       "description": "Institutional-grade prediction market simulation engine — Monte Carlo, particle filters, copulas, and agent-based modeling",
@@ -97,18 +208,18 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 15,
+        "forks": 3,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/f7d8761974c8926820b7d30a10eaa92595870d0c2c848b89cec7e0ca57b5f355/shreyas-lyzr/quant-sim",
+        "social_preview": "https://opengraph.githubassets.com/26209a8c8e95916b35f967db1b2d3574ec9a775c637be1d47b7ee9c8a9aa1e99/shreyas-lyzr/quant-sim",
         "description": "Institutional-grade prediction market simulation engine — Monte Carlo, importance sampling, particle filters, copula dependency modeling, and agent-based market microstructure"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__quant-sim/README.md",
       "added_at": "2026-03-01"
     }
   ],
-  "total": 3,
-  "generated_at": "2026-03-01T16:40:17.340Z"
+  "total": 6,
+  "generated_at": "2026-03-03T23:56:38.639Z"
 }

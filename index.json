@@ -148,7 +148,7 @@
       "description": "A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.",
       "repository": "https://github.com/shreyas-lyzr/marketing-agent",
       "version": "1.0.0",
-      "category": "marketing",
+      "category": "productivity",
       "tags": [
         "marketing",
         "seo",
@@ -221,5 +221,5 @@
     }
   ],
   "total": 6,
-  "generated_at": "2026-03-03T23:55:38.898Z"
+  "generated_at": "2026-03-03T23:56:38.639Z"
 }

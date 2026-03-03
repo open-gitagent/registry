@@ -5,13 +5,37 @@ A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO,
 ## Run
 
 ```bash
-npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/marketing-agent
+npx @open-gitagent/gitagent@latest run -r https://github.com/shreyas-lyzr/marketing-agent
 ```
 
-## Skills (32)
+## What It Can Do
 
-ab-test-setup, ad-creative, ai-seo, analytics-tracking, churn-prevention, cold-email, competitor-alternatives, content-strategy, copy-editing, copywriting, email-sequence, form-cro, free-tool-strategy, launch-strategy, marketing-ideas, marketing-psychology, onboarding-cro, page-cro, paid-ads, paywall-upgrade-cro, popup-cro, pricing-strategy, product-marketing-context, programmatic-seo, referral-program, revops, sales-enablement, schema-markup, seo-audit, signup-flow-cro, site-architecture, social-content
+| Area | Skills |
+|------|--------|
+| **SEO** | `seo-audit`, `ai-seo`, `schema-markup`, `programmatic-seo`, `site-architecture` |
+| **CRO** | `page-cro`, `form-cro`, `signup-flow-cro`, `onboarding-cro`, `popup-cro`, `paywall-upgrade-cro` |
+| **Copywriting** | `copywriting`, `copy-editing`, `cold-email`, `social-content` |
+| **Paid Ads** | `paid-ads`, `ad-creative` |
+| **Email** | `email-sequence`, `cold-email` |
+| **Strategy** | `content-strategy`, `launch-strategy`, `pricing-strategy`, `marketing-ideas`, `marketing-psychology` |
+| **Growth** | `referral-program`, `free-tool-strategy`, `churn-prevention`, `competitor-alternatives` |
+| **Ops** | `analytics-tracking`, `ab-test-setup`, `revops`, `sales-enablement`, `product-marketing-context` |
+
+## Structure
+
+```
+marketing-agent/
+├── agent.yaml
+├── SOUL.md
+├── RULES.md
+└── skills/
+    ├── seo-audit/
+    ├── copywriting/
+    ├── paid-ads/
+    ├── pricing-strategy/
+    └── ... (32 skills total)
+```
 
 ## Built with
 
-[gitagent](https://github.com/open-gitagent/gitagent)
+[gitagent](https://github.com/open-gitagent/gitagent) — a git-native, framework-agnostic open standard for AI agents.

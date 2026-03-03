@@ -143,6 +143,46 @@
       "added_at": "2026-03-01"
     },
     {
+      "name": "marketing-agent",
+      "author": "shreyas-lyzr",
+      "description": "A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.",
+      "repository": "https://github.com/shreyas-lyzr/marketing-agent",
+      "version": "1.0.0",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "seo",
+        "cro",
+        "copywriting",
+        "paid-ads",
+        "email-marketing",
+        "analytics",
+        "pricing",
+        "growth"
+      ],
+      "license": "MIT",
+      "model": "claude-sonnet-4-5-20250929",
+      "adapters": [
+        "claude-code",
+        "openai",
+        "lyzr",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/479ccbbf0cfec46920f31409ffaed3b1dea9388f2d9348c91be2be334de9a917/shreyas-lyzr/marketing-agent",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__marketing-agent/README.md",
+      "added_at": "2026-03-03"
+    },
+    {
       "name": "quant-sim",
       "author": "shreyas-lyzr",
       "description": "Institutional-grade prediction market simulation engine — Monte Carlo, particle filters, copulas, and agent-based modeling",
@@ -168,18 +208,18 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 6,
-        "forks": 2,
+        "stars": 15,
+        "forks": 3,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/af3370c09ee8484fbd1356a8ebe5dce331721e98df8234eaa048214c3d982751/shreyas-lyzr/quant-sim",
+        "social_preview": "https://opengraph.githubassets.com/26209a8c8e95916b35f967db1b2d3574ec9a775c637be1d47b7ee9c8a9aa1e99/shreyas-lyzr/quant-sim",
         "description": "Institutional-grade prediction market simulation engine — Monte Carlo, importance sampling, particle filters, copula dependency modeling, and agent-based market microstructure"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__quant-sim/README.md",
       "added_at": "2026-03-01"
     }
   ],
-  "total": 5,
-  "generated_at": "2026-03-03T08:23:36.475Z"
+  "total": 6,
+  "generated_at": "2026-03-03T23:55:38.898Z"
 }

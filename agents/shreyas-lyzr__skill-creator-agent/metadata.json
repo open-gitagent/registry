@@ -1,0 +1,14 @@
+{
+  "name": "skill-creator-agent",
+  "author": "shreyas-lyzr",
+  "description": "An AI agent that helps you create, test, improve, and optimize skills for Claude Code and other AI assistants",
+  "repository": "https://github.com/shreyas-lyzr/skill-creator-agent",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": ["skills", "eval", "benchmark", "claude-code", "testing", "developer-tools"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "openai", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

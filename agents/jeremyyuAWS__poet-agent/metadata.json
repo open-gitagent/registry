@@ -1,0 +1,14 @@
+{
+  "name": "poet-agent",
+  "author": "jeremyyuAWS",
+  "description": "A creative poet agent that writes beautiful, original poems on any topic in various styles and forms",
+  "repository": "https://github.com/jeremyyuAWS/poet-agent",
+  "version": "1.0.0",
+  "category": "creative",
+  "tags": ["poetry", "creative-writing", "poems", "sonnets", "haiku"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "openai", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "playon-recruitment-agent",
+  "author": "jeremyyuAWS",
+  "description": "Multi-agent recruitment and HR management system — 7 sub-agents, 25 skills, 22 tools for high-volume hiring, onboarding, performance, and workforce intelligence",
+  "repository": "https://github.com/jeremyyuAWS/playon-recruitment-agent",
+  "version": "1.0.0",
+  "category": "productivity",
+  "tags": ["recruitment", "hr", "talent-acquisition", "hiring", "onboarding", "ats", "lever", "multi-agent", "workforce-planning", "compliance"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "openai", "lyzr", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

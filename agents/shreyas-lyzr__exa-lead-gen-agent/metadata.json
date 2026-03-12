@@ -1,0 +1,14 @@
+{
+  "name": "exa-lead-gen-agent",
+  "author": "shreyas-lyzr",
+  "description": "Generate enriched lead lists using Exa deep search with ICP scoring, micro-vertical expansion, parallel batch subagents, and CSV output.",
+  "repository": "https://github.com/shreyas-lyzr/exa-lead-gen-agent",
+  "version": "1.0.0",
+  "category": "productivity",
+  "tags": ["lead-generation", "exa", "sales", "icp", "prospecting", "csv", "enrichment"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

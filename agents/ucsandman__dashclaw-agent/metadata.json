@@ -1,0 +1,15 @@
+{
+  "name": "dashclaw-agent",
+  "author": "ucsandman",
+  "description": "The definitive DashClaw expert — helps developers integrate, configure, troubleshoot, and build the AI agent governance platform. Governs itself on DashClaw.",
+  "repository": "https://github.com/ucsandman/dashclaw-agent",
+  "path": "",
+  "version": "1.0.0",
+  "category": "governance",
+  "tags": ["dashclaw", "governance", "ai-agents", "security", "compliance", "policy-firewall", "sdk", "hitl"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

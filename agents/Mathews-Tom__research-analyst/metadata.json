@@ -1,0 +1,14 @@
+{
+  "name": "research-analyst",
+  "author": "Mathews-Tom",
+  "description": "Deep multi-source research agent that spawns parallel investigation across web, academic, and competitive sources with cited synthesis",
+  "repository": "https://github.com/Mathews-Tom/research-analyst",
+  "version": "1.0.0",
+  "category": "research",
+  "tags": ["research", "analysis", "literature-review", "multi-source", "synthesis", "competitive-analysis"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "secret-scanner",
+  "author": "Mathews-Tom",
+  "description": "Pre-commit secret detection that scans for hardcoded API keys, passwords, tokens, connection strings, and high-entropy strings",
+  "repository": "https://github.com/Mathews-Tom/secret-scanner",
+  "version": "1.0.0",
+  "category": "security",
+  "tags": ["security", "secrets", "pre-commit", "credential-detection", "api-keys", "devops"],
+  "license": "MIT",
+  "model": "claude-haiku-4-5-20251001",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

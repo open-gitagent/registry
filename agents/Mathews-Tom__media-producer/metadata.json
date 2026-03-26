@@ -1,0 +1,14 @@
+{
+  "name": "media-producer",
+  "author": "Mathews-Tom",
+  "description": "Visual and video asset creation with intelligent format routing — static images, diagrams, animated explainers, or presentations",
+  "repository": "https://github.com/Mathews-Tom/media-producer",
+  "version": "1.0.0",
+  "category": "creative",
+  "tags": ["visual", "video", "diagram", "infographic", "presentation", "animation", "media"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

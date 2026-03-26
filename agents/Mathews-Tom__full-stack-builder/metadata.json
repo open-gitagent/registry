@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-builder",
+  "author": "Mathews-Tom",
+  "description": "End-to-end implementation agent that takes architecture docs or feature specs and delivers production-ready code with tests, API docs, and security validation",
+  "repository": "https://github.com/Mathews-Tom/full-stack-builder",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": [
+    "full-stack",
+    "implementation",
+    "scaffolding",
+    "production",
+    "testing",
+    "api-docs",
+    "code-generation"
+  ],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": [
+    "claude-code",
+    "system-prompt"
+  ],
+  "icon": true,
+  "banner": true
+}

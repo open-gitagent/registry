@@ -1,0 +1,24 @@
+{
+  "name": "codebase-auditor",
+  "author": "Mathews-Tom",
+  "description": "Multi-dimensional codebase quality assessment agent that spawns parallel review agents and produces prioritized audit reports",
+  "repository": "https://github.com/Mathews-Tom/codebase-auditor",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": [
+    "audit",
+    "quality",
+    "security",
+    "code-review",
+    "multi-dimensional",
+    "pre-release"
+  ],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": [
+    "claude-code",
+    "system-prompt"
+  ],
+  "icon": true,
+  "banner": true
+}

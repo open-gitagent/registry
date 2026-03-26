@@ -1,0 +1,14 @@
+{
+  "name": "security-reviewer",
+  "author": "Mathews-Tom",
+  "description": "OWASP Top 10 vulnerability scanner that maps attack surfaces, traces data flows, and produces severity-ranked findings with remediation code",
+  "repository": "https://github.com/Mathews-Tom/security-reviewer",
+  "version": "1.0.0",
+  "category": "security",
+  "tags": ["security", "owasp", "vulnerability-scanner", "sql-injection", "xss", "authentication", "ssrf", "code-audit"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

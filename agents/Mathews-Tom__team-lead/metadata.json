@@ -1,0 +1,14 @@
+{
+  "name": "team-lead",
+  "author": "Mathews-Tom",
+  "description": "Meta-orchestrator — decomposes complex requests into agent-sized tasks, delegates to specialized agents, manages sequencing and parallelism",
+  "repository": "https://github.com/Mathews-Tom/team-lead",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": ["orchestration", "delegation", "multi-agent", "coordination", "workflow", "meta-agent"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

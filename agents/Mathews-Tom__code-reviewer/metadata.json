@@ -1,0 +1,14 @@
+{
+  "name": "code-reviewer",
+  "author": "Mathews-Tom",
+  "description": "Multi-phase code review with severity-ranked findings across naming, complexity, error handling, DRY violations, and test coverage gaps",
+  "repository": "https://github.com/Mathews-Tom/code-reviewer",
+  "version": "1.0.0",
+  "category": "testing",
+  "tags": ["code-review", "quality", "complexity", "dry", "testing", "linting", "best-practices"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

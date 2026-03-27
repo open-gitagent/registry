@@ -1,0 +1,23 @@
+{
+  "name": "code-agent-workflow",
+  "author": "mrtkrcm",
+  "description": "Multi-platform AI agent command generator with atomic deployment to Claude Code, Pi, OpenCode, Gemini, and more.",
+  "repository": "https://github.com/mrtkrcm/code-agent-workflow",
+  "path": "",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "cli",
+    "multi-platform",
+    "agent-management"
+  ],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": [
+    "claude-code",
+    "system-prompt"
+  ],
+  "icon": false,
+  "banner": false
+}

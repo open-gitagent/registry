@@ -1,0 +1,15 @@
+{
+  "name": "Code Review Agent",
+  "author": "Siddharth114",
+  "description": "A code reviewer built with Lyzr ADK and packaged as a GitAgent.",
+  "repository": "https://github.com/Siddharth114/lyzr-review-agent",
+  "path": "",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": [],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

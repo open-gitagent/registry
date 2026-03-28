@@ -1,0 +1,23 @@
+{
+  "name": "repo-sandbox-agent",
+  "author": "VivanRajath",
+  "description": "Multi-agent architecture built natively with Lyzr ADK to scan repository runtimes and automatically handle codebase edits.",
+  "repository": "https://github.com/VivanRajath/repo-sanbox-agent",
+  "path": "",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": [
+    "lyzr",
+    "lyzr-adk",
+    "multi-agent",
+    "code-editor"
+  ],
+  "license": "MIT",
+  "model": "gpt-4o",
+  "adapters": [
+    "python-orchestrator",
+    "lyzr-adk"
+  ],
+  "icon": false,
+  "banner": false
+}

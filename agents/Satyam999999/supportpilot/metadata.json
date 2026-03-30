@@ -1,0 +1,15 @@
+{
+  "name": "supportpilot",
+  "author": "Satyam999999",
+  "description": "Grounded support-resolution and escalation-triage agent with citation-backed responses and confidence scoring.",
+  "repository": "https://github.com/Satyam999999/Supportpilot-Gitagent",
+  "path": ".",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": ["support", "retrieval", "triage"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": false,
+  "banner": false
+}

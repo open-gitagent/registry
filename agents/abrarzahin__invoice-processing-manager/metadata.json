@@ -1,0 +1,17 @@
+{
+  "name": "invoice-processing-manager",
+  "description": "A multi-agent invoice-processing workflow that extracts invoice fields, validates them against policy guidance, and formats the final result into a clean structured output.",
+  "author": "abrarzahin",
+  "repository": "https://github.com/abrarzahin/invoice-processing-manager-agent",
+  "documentation": "https://github.com/abrarzahin/invoice-processing-manager-agent/blob/main/README.md",
+  "soul": "https://github.com/abrarzahin/invoice-processing-manager-agent/blob/main/SOUL.md",
+  "config": "https://github.com/abrarzahin/invoice-processing-manager-agent/blob/main/agent.yaml",
+  "tags": [
+    "ai-agent",
+    "multi-agent",
+    "invoice-processing",
+    "rag",
+    "automation",
+    "lyzr"
+  ]
+}

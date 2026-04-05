@@ -1,0 +1,18 @@
+{
+  "name": "framework-translator-agent",
+  "author": "shreyas-lyzr",
+  "description": "Translates AI agent code between 8 major frameworks: LangGraph, CrewAI, OpenAI Agents SDK, AutoGen, Semantic Kernel, Haystack, Agno/Phidata, and Google ADK. Analyzes source agent structure, produces a",
+  "repository": "https://github.com/shreyas-lyzr/framework-translator-agent",
+  "version": "2.0.0",
+  "category": "developer-tools",
+  "tags": [],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": [
+    "claude-code",
+    "openai",
+    "system-prompt"
+  ],
+  "icon": false,
+  "banner": false
+}

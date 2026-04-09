@@ -1,0 +1,25 @@
+{
+  "name": "idea-scout",
+  "author": "Mathews-Tom",
+  "description": "Business idea validation pipeline with parallel market research, competitive analysis, and feasibility assessment producing scored GO/CAUTION/NO-GO verdicts",
+  "repository": "https://github.com/Mathews-Tom/idea-scout",
+  "version": "1.0.0",
+  "category": "research",
+  "tags": [
+    "validation",
+    "lean-canvas",
+    "market-research",
+    "competitive-analysis",
+    "feasibility",
+    "startup",
+    "business"
+  ],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": [
+    "claude-code",
+    "system-prompt"
+  ],
+  "icon": true,
+  "banner": true
+}

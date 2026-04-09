@@ -1,0 +1,25 @@
+{
+  "name": "project-planner",
+  "author": "Mathews-Tom",
+  "description": "Task breakdown and project planning agent that decomposes work into dependency-mapped items with estimates, milestones, and risk tracking",
+  "repository": "https://github.com/Mathews-Tom/project-planner",
+  "version": "1.0.0",
+  "category": "productivity",
+  "tags": [
+    "planning",
+    "estimation",
+    "task-decomposition",
+    "pert",
+    "risk-assessment",
+    "milestones",
+    "project-management"
+  ],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": [
+    "claude-code",
+    "system-prompt"
+  ],
+  "icon": true,
+  "banner": true
+}

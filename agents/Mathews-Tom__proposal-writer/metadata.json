@@ -1,0 +1,14 @@
+{
+  "name": "proposal-writer",
+  "author": "Mathews-Tom",
+  "description": "Technical proposal generation with ROI calculation, three-tier pricing, and business-value framing with optional PDF export",
+  "repository": "https://github.com/Mathews-Tom/proposal-writer",
+  "version": "1.0.0",
+  "category": "productivity",
+  "tags": ["proposal", "roi", "pricing", "business", "client-facing", "bidding", "sales"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

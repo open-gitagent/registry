@@ -1,0 +1,14 @@
+{
+  "name": "release-captain",
+  "author": "Mathews-Tom",
+  "description": "Ship lifecycle manager that drives code from branch to PR through quality gates, secret scanning, changelog generation, and dependency audits",
+  "repository": "https://github.com/Mathews-Tom/release-captain",
+  "version": "1.0.0",
+  "category": "devops",
+  "tags": ["devops", "release", "ci-cd", "changelog", "pull-request", "quality-gates", "shipping"],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": ["claude-code", "system-prompt"],
+  "icon": true,
+  "banner": true
+}

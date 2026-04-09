@@ -1,0 +1,26 @@
+{
+  "name": "content-strategist",
+  "author": "Mathews-Tom",
+  "description": "Multi-channel content creation engine that transforms topics into channel-optimized LinkedIn posts, blog articles, slide decks, and PDF reports",
+  "repository": "https://github.com/Mathews-Tom/content-strategist",
+  "version": "1.0.0",
+  "category": "content",
+  "tags": [
+    "content",
+    "writing",
+    "linkedin",
+    "blog",
+    "slides",
+    "pdf",
+    "multi-channel",
+    "marketing"
+  ],
+  "license": "MIT",
+  "model": "claude-sonnet-4-5-20250929",
+  "adapters": [
+    "claude-code",
+    "system-prompt"
+  ],
+  "icon": true,
+  "banner": true
+}

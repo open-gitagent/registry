@@ -1,0 +1,11 @@
+{
+  "name": "lyzr-sa",
+  "description": "Lyzr Solution Architect — answers technical and architectural questions about Lyzr's AI agent platform for sellers at trade shows and booths",
+  "author": "jeremyyuAWS",
+  "repo": "https://github.com/jeremyyuAWS/lyzr-sa-agent",
+  "category": "sales-engineering",
+  "adapters": ["claude-code", "lyzr", "system-prompt"],
+  "tags": ["lyzr", "solution-architect", "sales-engineering", "enterprise-ai"],
+  "version": "1.0.0",
+  "license": "MIT"
+}

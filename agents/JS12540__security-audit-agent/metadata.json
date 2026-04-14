@@ -1,0 +1,14 @@
+{
+  "name": "security-audit-agent",
+  "author": "JS12540",
+  "description": "AI security engineer that audits code for OWASP Top 10 vulnerabilities, detects hardcoded secrets, and scans dependency files for known CVEs.",
+  "repository": "https://github.com/JS12540/security-audit-agent",
+  "version": "1.0.0",
+  "category": "security",
+  "tags": ["security", "owasp", "vulnerability-scanning", "secrets-detection", "cve"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude", "openai", "system-prompt"],
+  "icon": false,
+  "banner": false
+}
